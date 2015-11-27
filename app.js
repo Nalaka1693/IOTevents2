@@ -23,9 +23,38 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+var hubArray = [];
+
 app.use('/', routes);
 app.use('/users', users);
-app.use('/events', eventsIOT);
+
+app.use('/events/:hubid', function(req, res) {
+    var hubid = req.params.hubid;
+    console.log("events");
+
+    var found = 0;
+    for (var i = 0; i < hubArray.length; i++) {
+        if (hubArray[i].hubID == hubid) {
+            found = 1;
+            break;
+        }
+    }
+    if (found == 1) {
+        return hubArray[i].getRouter();
+
+    } else {
+        res.send('Error');
+    }
+});
+
+app.get('/newhub/:hubid', function(req, res) {
+    var hubid = req.params.hubid;
+
+    var hub = new eventsIOT.Hub(hubid);
+    hubArray.push(hub);
+    res.send("new hub");
+    console.log("hubArray", hubArray.length);
+});
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
