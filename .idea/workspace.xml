@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f6695d-d349-4887-b645-a4ea5e5ef8e3" name="Default" comment="motion constructor">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/IOTevents2.iml" afterPath="$PROJECT_DIR$/.idea/IOTevents2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f4f6695d-d349-4887-b645-a4ea5e5ef8e3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eventsIOT.js" afterPath="$PROJECT_DIR$/eventsIOT.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/events/motionSense.js" afterPath="$PROJECT_DIR$/events/motionSense.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="IOTevents2.iws" />
@@ -38,35 +35,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eventsIOT.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="eventsIOT.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/eventsIOT.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.26881722">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="e#705#807#0" expanded="false" />
-                <element signature="e#864#941#0" expanded="false" />
-                <element signature="e#998#1075#0" expanded="false" />
-                <element signature="e#1132#1209#0" expanded="false" />
-                <element signature="e#1213#1301#0" expanded="false" />
-                <element signature="e#1341#1904#0" expanded="false" />
-                <element signature="e#1932#1982#0" expanded="false" />
-                <element signature="e#2020#2060#0" expanded="false" />
-                <element signature="e#2098#2131#0" expanded="false" />
-                <element signature="e#2169#2208#0" expanded="false" />
-                <element signature="e#2246#2289#0" expanded="false" />
-                <element signature="e#2327#2372#0" expanded="false" />
+                <element signature="e#772#1108#0" expanded="false" />
+                <element signature="e#1174#1556#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="motionSense.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="motionSense.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/events/motionSense.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.053667262">
-              <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tempSense.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/events/tempSense.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -91,10 +90,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/eventsIOT.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/events/acceleSense.js" />
         <option value="$PROJECT_DIR$/events/motionSense.js" />
+        <option value="$PROJECT_DIR$/eventsIOT.js" />
       </list>
     </option>
   </component>
@@ -134,6 +133,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -168,7 +168,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -198,6 +197,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -264,6 +264,13 @@
       <updated>1448046945443</updated>
       <workItem from="1448111497407" duration="159000" />
     </task>
+    <task id="LOCAL-00001" summary="motion constructor">
+      <created>1448600871891</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1448600871891</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -282,13 +289,12 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14285715" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.140625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3270869" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33049405" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="1.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -297,16 +303,17 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -342,31 +349,19 @@
     <entry file="file://$PROJECT_DIR$/eventsIOT.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="e#705#807#0" expanded="false" />
-            <element signature="e#864#941#0" expanded="false" />
-            <element signature="e#998#1075#0" expanded="false" />
-            <element signature="e#1132#1209#0" expanded="false" />
-            <element signature="e#1213#1301#0" expanded="false" />
-            <element signature="e#1341#1904#0" expanded="false" />
-            <element signature="e#1932#1982#0" expanded="false" />
-            <element signature="e#2020#2060#0" expanded="false" />
-            <element signature="e#2098#2131#0" expanded="false" />
-            <element signature="e#2169#2208#0" expanded="false" />
-            <element signature="e#2246#2289#0" expanded="false" />
-            <element signature="e#2327#2372#0" expanded="false" />
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/events/acceleSense.js">
+    <entry file="file://$PROJECT_DIR$/events/motionSense.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -383,18 +378,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#705#807#0" expanded="false" />
-            <element signature="e#864#941#0" expanded="false" />
-            <element signature="e#998#1075#0" expanded="false" />
-            <element signature="e#1132#1209#0" expanded="false" />
-            <element signature="e#1213#1301#0" expanded="false" />
-            <element signature="e#1341#1904#0" expanded="false" />
-            <element signature="e#1932#1982#0" expanded="false" />
-            <element signature="e#2020#2060#0" expanded="false" />
-            <element signature="e#2098#2131#0" expanded="false" />
-            <element signature="e#2169#2208#0" expanded="false" />
-            <element signature="e#2246#2289#0" expanded="false" />
-            <element signature="e#2327#2372#0" expanded="false" />
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -403,9 +388,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,18 +404,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#705#807#0" expanded="false" />
-            <element signature="e#864#941#0" expanded="false" />
-            <element signature="e#998#1075#0" expanded="false" />
-            <element signature="e#1132#1209#0" expanded="false" />
-            <element signature="e#1213#1301#0" expanded="false" />
-            <element signature="e#1341#1904#0" expanded="false" />
-            <element signature="e#1932#1982#0" expanded="false" />
-            <element signature="e#2020#2060#0" expanded="false" />
-            <element signature="e#2098#2131#0" expanded="false" />
-            <element signature="e#2169#2208#0" expanded="false" />
-            <element signature="e#2246#2289#0" expanded="false" />
-            <element signature="e#2327#2372#0" expanded="false" />
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -442,9 +414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -461,18 +430,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#705#807#0" expanded="false" />
-            <element signature="e#864#941#0" expanded="false" />
-            <element signature="e#998#1075#0" expanded="false" />
-            <element signature="e#1132#1209#0" expanded="false" />
-            <element signature="e#1213#1301#0" expanded="false" />
-            <element signature="e#1341#1904#0" expanded="false" />
-            <element signature="e#1932#1982#0" expanded="false" />
-            <element signature="e#2020#2060#0" expanded="false" />
-            <element signature="e#2098#2131#0" expanded="false" />
-            <element signature="e#2169#2208#0" expanded="false" />
-            <element signature="e#2246#2289#0" expanded="false" />
-            <element signature="e#2327#2372#0" expanded="false" />
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -481,9 +440,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -492,6 +448,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventsIOT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/acceleSense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -523,31 +497,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/eventsIOT.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#705#807#0" expanded="false" />
-            <element signature="e#864#941#0" expanded="false" />
-            <element signature="e#998#1075#0" expanded="false" />
-            <element signature="e#1132#1209#0" expanded="false" />
-            <element signature="e#1213#1301#0" expanded="false" />
-            <element signature="e#1341#1904#0" expanded="false" />
-            <element signature="e#1932#1982#0" expanded="false" />
-            <element signature="e#2020#2060#0" expanded="false" />
-            <element signature="e#2098#2131#0" expanded="false" />
-            <element signature="e#2169#2208#0" expanded="false" />
-            <element signature="e#2246#2289#0" expanded="false" />
-            <element signature="e#2327#2372#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/events/acceleSense.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="41" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/events/tempSense.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -556,9 +524,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/events/motionSense.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.053667262">
-          <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="10" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eventsIOT.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.26881722">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#772#1108#0" expanded="false" />
+            <element signature="e#1174#1556#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
