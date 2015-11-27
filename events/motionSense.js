@@ -1,13 +1,17 @@
-var dataArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
-
 module.exports = {
-    motion: function(data) {
-        fillArray(data);
+    Motion: function(hubID, sensorID) {
+        this.hubID = hubID;
+        this.sensorID = sensorID;
+        var dataArray = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 
-        if (eval(dataArray.join('+')) > 7) {
-            var date = new Date();
-            printDate(date);
-        }
+        this.motionFunc = function(data) {
+            fillArray(data);
+
+            if (eval(dataArray.join('+')) > -1) {
+                var date = new Date();
+                printDate(date);
+            }
+        };
     }
 };
 
