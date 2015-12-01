@@ -26,7 +26,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 var hubArray = [];
 
 app.use('/', routes);
-app.use('/users', users);
+app.use('/users/:id', users);
 
 app.use('/events/:hubid', function(req, res) {
     var hubid = req.params.hubid;
@@ -40,11 +40,12 @@ app.use('/events/:hubid', function(req, res) {
         }
     }
     if (found == 1) {
+        console.log("return");
         return hubArray[i].getRouter();
-
     } else {
         res.send('Error');
     }
+    res.end();
 });
 
 app.get('/newhub/:hubid', function(req, res) {

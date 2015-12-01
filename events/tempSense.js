@@ -9,7 +9,7 @@ module.exports = {
             fillArray(data, dataArray);
 
             if (dataArray[0] > 40) {
-                cosole.log("Caution! temperature is extremely high");
+                console.log("Caution! temperature is extremely high");
             } else if (dataArray[0] > dataArray[1] &&  dataArray[1] > dataArray[2] &&  dataArray[2] > dataArray[3]) {
                 console.log("Caution! temperature is rising rapidly");
             } else if (dataArray[0] - dataArray[1] > 5) {

@@ -7,7 +7,7 @@ var tempSense = require('./events/tempSense');
 module.exports = {
     Hub: function(hubID) {
         this.hubID = hubID;
-        var router = express.Router();
+        var router = new express.Router();
 
         var motionArray = [];
         var tempArray = [];
